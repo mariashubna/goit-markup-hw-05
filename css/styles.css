@@ -412,10 +412,7 @@ img {
   width: 264px;
 }
 .send-wrap {
-  display: flex;
-  align-items: flex-start;
-  margin-left: 40px;
-  flex-direction: column;
+  margin-left: 80px;
 
 }
 .send-title {
@@ -477,7 +474,6 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-color);
   fill: var(--white-color);
-  margin-left: 24px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -632,6 +628,7 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2E2F42;
 }
 .modal-input:hover,
 .modal-input:focus {
@@ -722,8 +719,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   justify-content: center;
   cursor: pointer;
